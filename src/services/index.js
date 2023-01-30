@@ -1,0 +1,1 @@
+export * as authServieces from './auth.service'
