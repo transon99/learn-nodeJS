@@ -1,8 +1,8 @@
 import express from 'express'
 import { userControllers } from '../controllers'
 
-const userRouter = express.Router()
+const userRoute = express.Router()
 
-userRouter.get('/', userControllers.getUsers)
+userRoute.get('/', userControllers.getUsers)
 
-export default userRouter
+export default userRoute
